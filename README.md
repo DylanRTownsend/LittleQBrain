@@ -36,6 +36,7 @@ And by saving the new learned values, the models data becomes persistent.
 
 ### Where is everything in the code?
 
+
 #### Initializing:
 ![Code1](https://github.com/DylanRTownsend/LittleQBrain/assets/43161779/15ef3fe3-1671-49b7-b59a-3356ea2459ae)
 
@@ -43,7 +44,7 @@ And by saving the new learned values, the models data becomes persistent.
 ![Code2](https://github.com/DylanRTownsend/LittleQBrain/assets/43161779/f56fa121-d301-43b6-af51-0e9eb37b108c)
 
 #### Choice Decision Strategy:
-![Code3](https://github.com/DylanRTownsend/LittleQBrain/assets/43161779/07c7ce8d-24ad-4c0e-ba5e-0f8cdc90ce2d)
+![Code3](https://github.com/DylanRTownsend/LittleQBrain/assets/43161779/561ccc8f-8183-4903-b572-57d7db77cb74)
 
 #### State Check/Learn:
 ![Code4](https://github.com/DylanRTownsend/LittleQBrain/assets/43161779/784f73f8-a7e2-44b1-a82c-de44a696f908)
