@@ -218,24 +218,6 @@ public class LittleQBrain : MonoBehaviour
 
     //State Functions
 
-    //Function taking in a new state (good to call in case your bot encouters a new state)
-    public void TakeInANewStates(Open_QBrain_Class state_and_Actions)
-    {
-        //Check if we already have the state
-        if (!Open_QBrain_Container.ContainsKey(state_and_Actions.State))
-        {
-            ConcurrentDictionary<string, float> actions_Qvalues = new ConcurrentDictionary<string, float>();
-
-            foreach (string actions in state_and_Actions.Actions)
-            {
-                actions_Qvalues.TryAdd(actions, 0.0f);
-            }
-
-            Open_QBrain_Container.TryAdd(state_and_Actions.State, actions_Qvalues);
-
-        }
-    }
-
     //Function for getting our current state - currently this is not very necessary,
     //since we can easily find out our state, but is good for adding in the case of meeting an unkown state
     public string GetCurrentState(string state)
